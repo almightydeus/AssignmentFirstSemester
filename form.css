@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    /* background: #013b3b; */
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 40% 60%; */
+}
+
+.container .container-left {
+    /* height: fit-content; */
+    min-height: 100vh;
+    width: 650px;
+    /* background: #e4f2f2; */
+    background: #FFFCF8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container .container-left .left-holder {
+    width: 85%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .container-left .left-holder img {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+}
+
+.container .container-left .left-holder .details-header {
+    font-size: 55px;
+    width: 400px;
+    text-align: center;
+    /* font-weight: bolder; */
+}
+
+.container .container-left .left-holder .links {
+    font-size: 15px;
+    margin: 30px 0;
+    text-align: center;
+
+    a {
+        margin: 0 5px;
+        color: #005eff;
+    }
+}
+
+.contact {
+    margin: 10px 0; 
+    font-size: 14px;
+    span {
+        text-align: center;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    p {
+        margin-left: 5px;
+    }
+}
+
+.left-footer {
+    text-align: center;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+
+/* container right */
+
+.container-right {
+    /* overflow-y: scroll; */
+    min-height: 70vh;
+    /* background: red; */
+    flex: 1; 
+    position: relative;
+}
+
+nav {
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+nav a {
+    padding: 0 20px;
+    font-family: AlmarenaBold, sans-serif;
+    text-decoration: none;
+    /* font-weight: bold; */
+    color: #0367F2;
+    font-size: 14px;
+
+}
+
+.style_hyperlink__BRk64 {
+    text-align: right;
+    color: #0F0F19;
+    font-size: 16px;
+    font-family: AlmarenaBold, sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+.style_hyperlink__BRk64 a {
+    color: #0367F2;
+    font-family: AlmarenaBold, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.cen {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blueviolet; */
+}
+
+form {
+    /* border: 2px solid blueviolet; */
+    width: 500px;
+    padding: 20px;
+}
+
+.signup {
+    color: #0B1E4B;
+    font-size: 28px;
+    margin-bottom: 10px;
+    /* border: 2px solid red; */
+    font-family: AlmarenaDisplayBold, sans-serif;
+}
+
+h4 {
+    /* border: 2px solid red; */
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: EuclidLight, sans-serif;
+    font-weight: lighter;
+    color: #85888D;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* border: 2px solid red; */
+    /* padding: 10px; */
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.child_container {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    max-width: fit-content;
+
+}
+
+label {
+    height: 30px;
+    font-size: 16px;
+    color: #000000E0;
+    /* max-width: fit-content; */
+    font-family: EuclidLight, sans-serif;
+}
+
+input {
+    height: 50px;
+    width: 200px;
+    padding: 0 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    border: none;
+    /* background-color: rgb(248, 244, 239); */
+}
+
+select {
+    height: 50px;
+    width: 200px;
+    padding: 0 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FAFAFA;
+
+}
+
+.child_contain {
+    display: flex;
+    flex-direction: column;
+}
+
+#sel {
+    height: 50px;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 14px;
+    background-color: #FAFAFA;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+button {
+    height: 50px;
+    width: 100%;
+    background-color: #6A6FF5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
