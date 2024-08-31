@@ -1,0 +1,33 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    /* display: grid; */
+    /* grid-template-rows: 10% 90%; */
+    background-color: rgb(247, 245, 242);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 30px 0;
+}
+
+nav a {
+  padding: 0 20px;
+  color: rgb(109, 109, 240);
+  text-decoration: none;
+}
+h2 {
+    margin-bottom: 40px;
+    font-family: AlmarenaBold, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
